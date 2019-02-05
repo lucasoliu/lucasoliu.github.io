@@ -21,57 +21,58 @@
       position: relative;
     }
     .body-font {
-      width:65%;
+      width:60%;
       font-size:25px;
       font-weight:300;
       opacity:0.75;
       letter-spacing: 0.7px;
-      margin-top:40px;
-      margin-left: 40px;
+      margin-top: 0px;
+      margin-left: 0px;
     }
 
+    #header {margin-bottom: 30px;}
     #wrapper {width: 100%; margin: auto;}
-    #right { width: 10%; float: right}
+    #links { width: 10%; float: left}
+    #about { width: 90%; float: left}
 
   </style>
 </head>
 <body>
 
-  <div id="wrapper">
-    <div id="right">
-      <p class="roboto-thin" style="font-size:25px; font-weight:400; opacity:0.7; letter-spacing: 0.7px;">
-        <a href="index.html" style="text-decoration:none; color:black">home</a>
-        <br>
-        <a href="projects.html" style="text-decoration:none; color:black">projects</a>
-        <br>
-        <a href="Resume.pdf" target="_blank" style="text-decoration:none; color:black">resume</a>
-        <!-- download icon <img src="images/download.png" style="width:12%"> -->
-      </p>
-    </div>
+<div id="header">
+  <div class="roboto-thin" style="font-size:72px; letter-spacing: 5px; margin-top:40px; margin-left: 40px;">lucasoliu</div>
+  <div style="margin-left: 40px;">
+    <p class="roboto-thin" style="font-size:25px; font-weight:400; opacity:0.7; letter-spacing: 0.7px; margin-top: 0px">
+      <a href="test.html" style="text-decoration:none; color:black">home</a>
+      <a href="projects.html" style="text-decoration:none; color:black; padding-left: 10px">projects</a>
+      <a href="Resume.pdf" target="_blank" style="text-decoration:none; color:black; padding-left: 10px">resume</a>
+      <!-- download icon <img src="images/download.png" style="width:12%"> -->
+    </p>
+  </div>
+</div>
 
-    <div class="roboto-thin" style="font-size:72px; letter-spacing: 5px; margin-top:40px; margin-bottom: 10px; margin-left: 40px;">lucasoliu</div>
-    <div style="margin-left: 40px">
-      <a href="https://www.linkedin.com/in/lucasoliu/" target="_blank"><img src="images/linkedin.png" style="width:75px;height:75px;"></a>
-      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=liu.o.lucas@gmail.com" target="_blank"><img src="images/gmail.png" style="width:75px;height:75px;padding-left:20px;"></a>
-      <a href="https://github.com/lucasoliu" target="_blank"><img src="images/github.jpg" style="width:75px;height:75px;padding-left:20px;"></a>
-      <a href="https://acornking.itch.io/" target="_blank"><img src="images/itch.png" style="width:75px;height:75px;padding-left:20px;"></a>
+<div id= "wrapper">
+  <div id = "links">
+    <div style="margin-left: 40px; opacity: 0.85;">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lucasoliu@berkeley.edu" target="_blank"><img src="images/gmail.png" style="width:60px;height:60px;padding-bottom:10px;"></a><br>
+      <a href="https://www.linkedin.com/in/lucasoliu/" target="_blank"><img src="images/linkedin.png" style="width:60px;height:60px;margin-bottom:10px;"></a><br>
+      <a href="https://github.com/lucasoliu" target="_blank"><img src="images/github.jpg" style="width:60px;height:60px;padding-bottom:10px;"></a><br>
+      <a href="https://acornking.itch.io/" target="_blank"><img src="images/itch.png" style="width:60px;height:60px;"></a>
     </div>
+  </div>
 
+  <div id = "about">
     <p class="roboto-thin body-font">
       Hello! I’m Lucas, an aspiring software engineer and second-year computer science major at UC Berkeley.
       <br><br>
       I'm currently studying computer architecture and database systems through my coursework, and in my free time I love playing and developing
       video games!
       <br><br>
-      Feel free to check out some of my ongoing and past work here and reach out via the above links about anything :)
+      Feel free to check out some of my ongoing and past work here and reach out via my links about anything :-)
     </p>
-
-    <!-- images>
-      <img src="images/lissandra.png" style="width:20%;height:auto;position:relative;">
-      <img src="images/papulatus.png" style="width:20%;height:auto;position:relative;padding-left:19%;padding-right:19%">
-      <img src="images/pichu.png" style="width:20%;height:auto;position:relative;">
-    <-->
   </div>
+</div>
+
 </body>
 
 </html>
